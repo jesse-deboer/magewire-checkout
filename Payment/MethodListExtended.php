@@ -25,7 +25,7 @@ use Magento\Quote\Model\Quote\Payment;
 use Magento\Quote\Model\QuoteRepository;
 use MultiSafepay\ConnectCore\Config\Config;
 
-class MethodListExtend extends MethodList
+class MethodListExtended extends MethodList
 {
     public ?string $method = null;
 
